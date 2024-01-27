@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> : </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+<header>
+    <nav>
+        <a href="#" class="logo"> <span>Mr</span> Mahmood</a>
+        <ul class="linkes">
+<li> <a href="#" class="active">Home</a></li>
+<li> <a href="#">About</a></li>
+<li> <a href="#">Skills</a></li>
+<li> <a href="#">Projects</a></li>
+<li> <a href="#">Contact</a></li>
+
+        </ul>
+
+<div class="social-links">
+<a href="https://www.instagram.com/4z7m?igsh=MzRlODBiNWFlZA=="><i class="fa-brands fa-snapchat"></i></a>
+<a href="https://www.instagram.com/4z7m?igsh=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.instagram.com/4z7m?igsh=MzRlODBiNWFlZA=="><i class="fa-brands fa-twitter"></i></a>
+
+</div>
+<i id="btnMenu" class="fa-solid fa-bars"></i>
+
+    </nav>
+</header>
+
+
+
+<div class="hero-sec">
+    <div class="contanier">
+        <div class="div-text">
+            <h1>Mahmood</h1>
+            <span>Web Designer</span>
+            <p>"Hello, I'm Mahmoud, a 16-year-old programmer. I have experience in social media programs and programming. I'm passionate about developing my skills and helping others in this exciting field.
+
+                I am familiar with different operating systems such as Windows, macOS, and Linux. I am proficient in various programming languages, including Python, Java, C++, and JavaScript. I have experience in developing web applications and mobile applications using popular frameworks like Django and React Native.
+                
+                I also have knowledge in designing and implementing databases using MySQL and MongoDB. I excel in problem-solving and developing efficient and scalable software solutions.</p>
+            <a href="#" class="btn">My Workls</a>
+        </div>
+<div class="div-img">
+    <img src="d04e96ed-9a71-4be4-b1c2-524621207041.webp" alt="">
+</div>
+
+    </div>
+</div>
+<script>
+
+    
+    
+    let btnMenu = document.getElementById("btnMenu");
+    let NavLinks = document.querySelector(".linkes");
+    
+    btnMenu.onclick = function (){
+        btnMenu.classList.toggle("fa-times")
+        NavLinks.classList.toggle("active")
+    }
+</script>
+</body>
+</html>
